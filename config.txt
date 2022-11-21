@@ -1,0 +1,4 @@
+For python code, we must need some modules.
+###############################################
+pip install numpy
+pip install opencv-python
