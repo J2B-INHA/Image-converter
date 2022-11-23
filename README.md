@@ -11,3 +11,11 @@ mintNFT의 인자는 이전에 저희가 만든 metadata의 ipfs 링크입니다
 그래서 사용자에게 받은 이미지를 통해 만든 metadata의 ipfs링크를 
 scripts/mint-nft.js의 37th line의 mintNFT함수에 인자로
 넘겨주어야 합니다.
+
+
+cmd에서
+> node scripts\mint-nft.js
+를 입력하면 발행이 이루어집니다.
+
+여기서 문제가 gas비용때문에, mint이 안되는 문제가 아직
+해결되지 않았습니다.
