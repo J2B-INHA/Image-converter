@@ -6,3 +6,8 @@ scripts/mint-nft.js에서
 mintNFT("https://gateway.pinata.cloud/ipfs/Qmeou5f7ttU98n96mYWfYzKHV7pfRe5rcZBhYznHZCUV7M");
 
 mintNFT의 인자는 이전에 저희가 만든 metadata의 ipfs 링크입니다.
+
+
+그래서 사용자에게 받은 이미지를 통해 만든 metadata의 ipfs링크를 
+scripts/mint-nft.js의 37th line의 mintNFT함수에 인자로
+넘겨주어야 합니다.
